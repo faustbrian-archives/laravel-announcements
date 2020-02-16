@@ -17,10 +17,7 @@ composer require kodekeep/laravel-announcements
 
 ## Usage
 
-``` php
-$skeleton = new KodeKeep\Skeleton();
-echo $skeleton->echoPhrase('Hello, KodeKeep!');
-```
+See our [tests](https://github.com/kodekeep/laravel-announcements/tree/master/tests/Unit) for usage examples.
 
 ## Testing
 
