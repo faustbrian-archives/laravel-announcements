@@ -32,16 +32,6 @@ class Announcement extends Model
         return $this->belongsTo(Config::get('announcements.models.author'));
     }
 
-    public function getParsedTitleAttribute(): string
-    {
-        return trim(resolve('kodekeep.announcements.converter')->convertToHtml($this->title));
-    }
-
-    public function getParsedBodyAttribute(): string
-    {
-        return trim(resolve('kodekeep.announcements.converter')->convertToHtml($this->body));
-    }
-
     public static function findByslug(string $slug): self
     {
         return static::where('slug', $slug)->firstOrFail();
