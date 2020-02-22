@@ -48,4 +48,14 @@ return [
 
     ],
 
+    'tables' => [
+
+        /*
+         * This ...
+         */
+
+        'announcements' => 'announcements',
+
+    ],
+
 ];

@@ -41,4 +41,9 @@ class Announcement extends Model
     {
         return SlugOptions::create()->generateSlugsFrom('title')->saveSlugsTo('slug');
     }
+
+    public function getTable(): string
+    {
+        return Config::get('announcements.tables.announcements');
+    }
 }

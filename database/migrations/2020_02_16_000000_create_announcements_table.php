@@ -1,14 +1,15 @@
 <?php
 
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
 
 class CreateAnnouncementsTable extends Migration
 {
     public function up()
     {
-        Schema::create('announcements', function (Blueprint $table) {
+        Schema::create(Config::get('announcements.tables.announcements'), function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->unsignedBigInteger('author_id')->index();
             $table->string('title');
@@ -23,6 +24,6 @@ class CreateAnnouncementsTable extends Migration
 
     public function down()
     {
-        Schema::drop('announcements');
+        Schema::drop(Config::get('announcements.tables.announcements'));
     }
 }
