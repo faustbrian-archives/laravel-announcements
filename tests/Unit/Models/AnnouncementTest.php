@@ -5,21 +5,21 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Announcements.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Announcements\Tests\Unit\Models;
+namespace Konceiver\Announcements\Tests\Unit\Models;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use KodeKeep\Announcements\Models\Announcement;
-use KodeKeep\Announcements\Tests\TestCase;
+use Konceiver\Announcements\Models\Announcement;
+use Konceiver\Announcements\Tests\TestCase;
 
 /**
- * @covers \KodeKeep\Announcements\Models\Announcement
+ * @covers \Konceiver\Announcements\Models\Announcement
  */
 class AnnouncementTest extends TestCase
 {

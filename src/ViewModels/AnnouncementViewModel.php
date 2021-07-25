@@ -5,15 +5,15 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Announcements.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Announcements\ViewModels;
+namespace Konceiver\Announcements\ViewModels;
 
-use KodeKeep\Announcements\Models\Announcement;
+use Konceiver\Announcements\Models\Announcement;
 use League\CommonMark\ConverterInterface;
 use Spatie\ViewModels\ViewModel;
 

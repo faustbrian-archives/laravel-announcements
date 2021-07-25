@@ -1,23 +1,23 @@
 # Laravel Announcements
 
-[![Latest Version](https://badgen.net/packagist/v/kodekeep/laravel-announcements)](https://packagist.org/packages/kodekeep/laravel-announcements)
-[![Software License](https://badgen.net/packagist/license/kodekeep/laravel-announcements)](https://packagist.org/packages/kodekeep/laravel-announcements)
-[![Build Status](https://img.shields.io/github/workflow/status/kodekeep/laravel-announcements/run-tests?label=tests)](https://github.com/kodekeep/laravel-announcements/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Coverage Status](https://badgen.net/codeclimate/coverage/kodekeep/laravel-announcements)](https://codeclimate.com/github/kodekeep/laravel-announcements)
-[![Quality Score](https://badgen.net/codeclimate/maintainability/kodekeep/laravel-announcements)](https://codeclimate.com/github/kodekeep/laravel-announcements)
-[![Total Downloads](https://badgen.net/packagist/dt/kodekeep/laravel-announcements)](https://packagist.org/packages/kodekeep/laravel-announcements)
+[![Latest Version](https://badgen.net/packagist/v/konceiver/laravel-announcements)](https://packagist.org/packages/konceiver/laravel-announcements)
+[![Software License](https://badgen.net/packagist/license/konceiver/laravel-announcements)](https://packagist.org/packages/konceiver/laravel-announcements)
+[![Build Status](https://img.shields.io/github/workflow/status/konceiver/laravel-announcements/run-tests?label=tests)](https://github.com/konceiver/laravel-announcements/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Coverage Status](https://badgen.net/codeclimate/coverage/konceiver/laravel-announcements)](https://codeclimate.com/github/konceiver/laravel-announcements)
+[![Quality Score](https://badgen.net/codeclimate/maintainability/konceiver/laravel-announcements)](https://codeclimate.com/github/konceiver/laravel-announcements)
+[![Total Downloads](https://badgen.net/packagist/dt/konceiver/laravel-announcements)](https://packagist.org/packages/konceiver/laravel-announcements)
 
 This package was created by, and is maintained by [Brian Faust](https://github.com/faustbrian), and provides Announcements for Laravel.
 
 ## Installation
 
 ```bash
-composer require kodekeep/laravel-announcements
+composer require konceiver/laravel-announcements
 ```
 
 ## Usage
 
-See our [tests](https://github.com/kodekeep/laravel-announcements/tree/master/tests) for usage examples.
+See our [tests](https://github.com/konceiver/laravel-announcements/tree/master/tests) for usage examples.
 
 ## Testing
 
@@ -35,7 +35,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to hello@kodekeep.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to hello@konceiver.dev. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
